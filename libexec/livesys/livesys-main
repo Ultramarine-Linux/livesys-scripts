@@ -146,7 +146,7 @@ if [ -f /etc/sysconfig/livesys ]; then
   . /etc/sysconfig/livesys
 
   if [ -n "${livesys_session}" ]; then
-    . "/usr/libexec/livesys/sessions.d/livesys-${livesys_session}"
+    . /usr/libexec/livesys/sessions.d/"livesys-${livesys_session}"
   fi
 
 fi
