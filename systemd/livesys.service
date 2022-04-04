@@ -2,7 +2,6 @@
 Description=Initialization for live environments
 Before=display-manager.service chronyd.service
 ConditionKernelCommandLine=rd.live.image
-ConditionPathExists=!/.liveimg-configured
 
 [Service]
 Type=oneshot
